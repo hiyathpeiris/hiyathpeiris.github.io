@@ -8,10 +8,11 @@
     <style>
         body {
             background-color: #e6e6fa; /* Light violet background */
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif; /* Formal and pretty font */
             color: #4b0082; /* Indigo text color */
             margin: 0;
             padding: 0;
+            text-align: center; /* Centered text throughout */
         }
 
         header {
@@ -23,7 +24,7 @@
 
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 3rem; /* Larger font for header */
         }
 
         nav ul {
@@ -31,7 +32,7 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 30px;
         }
 
         nav ul li {
@@ -42,6 +43,7 @@
             text-decoration: none;
             color: white;
             font-size: 1.2rem;
+            font-weight: bold;
         }
 
         nav ul li a:hover {
@@ -57,14 +59,13 @@
         }
 
         section h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             color: #6a0dad;
             margin-top: 20px;
-            text-align: center;
         }
 
         section h3 {
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             color: #4b0082;
             margin-top: 10px;
         }
@@ -72,14 +73,16 @@
         .course-list {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 20px;
+            justify-content: center;
+            gap: 40px;
             margin-top: 10px;
         }
 
         .course-list ul {
             flex: 1;
-            min-width: 200px;
+            min-width: 250px;
+            list-style-type: none;
+            padding: 0;
         }
 
         .course-list ul li {
@@ -182,124 +185,7 @@
                 <ul>
                     <li><a href="https://drive.google.com/drive/folders/1YMslRB-v1yICl7ZaiBTzIH1w3Ka2ykWw?usp=sharing">Circuits</a></li>
                     <li><a href="https://www.youtube.com/watch?v=TyyTefl9ktM&list=PLvJZZcg6Js7r8xKTR6lOI6eUmXEHDfGTH">Circuits</a></li>
-                    <li>Bioengineering Principles</li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://youtube.com/playlist?list=PLRqDfxcafc23LXGoItpkYMKtUdHaQwSDC&si=41Ntf7j7suDAazt1">Statics</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=Dqm9jD2dsC8&list=PLTGmFhsK1lNT6HSeaiBdDGS4bGKVWVokz">Statics</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PLYHaXvNA5Jrf_z0xbYhlzv0leoGBXHhll&si=SrQn3D4lP_yExshb">Physical Chemistry</a></li>
-                </ul>
-
-                <ul>
-                    <li>Conservation Laws</li>
-                    <li>Biotransport</li>
-                    <li><a href="https://www.coursera.org/learn/economics-society-markets-and-inequality">Core (Used as a Sociology-Related Elective for Pre-Med)</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Junior and Senior sections would follow a similar structure -->
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Bioengineering Department</p>
-    </footer>
-</body>
-</html>
-        <section id="junior">
-            <h2>Junior Year</h2>
-            <h3>Fall Semester</h3>
-            <div class="course-list">
-                <ul>
-                    <li><a href="https://youtube.com/playlist?list=PLlHLZtITwVx5xvfYTxwImqqiZZ-E_H5Se">Advanced Calculus</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PL3pZ9ip8zN2gHnxZl5sTG7-QA3SyH3db4">Biomaterials</a></li>
-                    <li><a href="https://www.coursera.org/learn/biomechanics">Biomechanics</a></li>
-                    <li><a href="https://www.edx.org/course/biotechnology">Biotechnology Principles</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PLFGE6p1D2jqxu4OBNcK-VmltGTbpeKl0p">Biomedical Engineering Lab 1</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/chemical-engineering">Chemical Engineering for Bioengineering</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=JVGmAZhEhtw&list=PLgwe0Rvg1FkEKKPIZ5hfgV_T9Fxoswtcx">Biotransport Phenomena</a></li>
-                    <li><a href="https://www.coursera.org/learn/introduction-to-cell-biology">Cell Biology for Engineers</a></li>
-                    <li><a href="https://www.edx.org/course/systems-biology">Systems Biology</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PL4C2tXnLj9X9qgmyT7zx79JMbjFTIKwqf">Metabolic Engineering</a></li>
-                </ul>
-            </div>
-
-            <h3>January Term</h3>
-            <ul>
-                <li><a href="https://www.coursera.org/learn/medical-image-analysis">Medical Imaging</a></li>
-            </ul>
-
-            <h3>Spring Semester</h3>
-            <div class="course-list">
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/biomedical-signal-processing">Biomedical Signal Processing</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PL8olNHXbqvF6RjNVuDl6FJ4m3rk9QGmwN">Control Systems for Engineers</a></li>
-                    <li><a href="https://www.edx.org/course/biomedical-instrumentation">Biomedical Instrumentation</a></li>
-                    <li><a href="https://www.coursera.org/learn/biomedical-sensors">Sensors for Biomedical Applications</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PL_lVLVOVY52ed_s7sIZ5XPjiuQ4ssnsTx">Medical Device Design</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/introduction-to-physiology">Physiology for Engineers</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PLk9Jm1hskQ1hJcOGwpd8tdp5AnceJdAL6">Pathophysiology</a></li>
-                    <li><a href="https://www.edx.org/course/biomedical-data-analysis">Biomedical Data Analysis</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PLdJ6gvlZf_BtiilFwpxGyf_MxriT04g2u">Bioinformatics</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="senior">
-            <h2>Senior Year</h2>
-            <h3>Fall Semester</h3>
-            <div class="course-list">
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/advanced-biomaterials">Advanced Biomaterials</a></li>
-                    <li><a href="https://www.coursera.org/learn/bioprocessing">Bioprocessing Engineering</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PLwNKm7KKg8j18zx4hj8oRl2fYwctmbk3G">Medical Robotics</a></li>
-                    <li><a href="https://www.coursera.org/learn/biomedical-imaging">Biomedical Imaging</a></li>
-                    <li><a href="https://www.edx.org/course/advanced-bioengineering-lab">Advanced Bioengineering Lab</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/biomedical-diagnostics">Biomedical Diagnostics</a></li>
-                    <li><a href="https://www.coursera.org/learn/biomedical-entrepreneurship">Biomedical Entrepreneurship</a></li>
-                    <li><a href="https://www.edx.org/course/biological-interfaces">Biological Interfaces</a></li>
-                    <li><a href="https://www.coursera.org/learn/advanced-biomechanics">Advanced Biomechanics</a></li>
-                </ul>
-            </div>
-
-            <h3>January Term</h3>
-            <ul>
-                <li><a href="https://www.coursera.org/learn/design-thinking">Design Thinking for Engineers</a></li>
-            </ul>
-
-            <h3>Spring Semester</h3>
-            <div class="course-list">
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/biomedical-regulatory-affairs">Biomedical Regulatory Affairs</a></li>
-                    <li><a href="https://www.coursera.org/learn/biotechnology-entrepreneurship">Biotechnology Entrepreneurship</a></li>
-                    <li><a href="https://www.edx.org/course/advanced-topics-in-bioengineering">Advanced Topics in Bioengineering</a></li>
-                    <li><a href="https://www.coursera.org/learn/biomedical-systems">Biomedical Systems Engineering</a></li>
-                    <li><a href="https://www.edx.org/course/biomedical-fundamentals">Biomedical Fundamentals</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/biomedical-design-projects">Biomedical Design Projects</a></li>
-                    <li><a href="https://www.youtube.com/playlist?list=PLPvJjmhpphNTDN4RAh15cZG__c8Ys_sJW">Capstone Project in Bioengineering</a></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Bioengineering Department</p>
-    </footer>
-</body>
-</html>
+                    <li>Bioengineering
 
 
 
