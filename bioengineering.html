@@ -4,104 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bioengineering Major Courses</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
         body {
-            background-color: #e6e6fa; /* Light violet background */
-            font-family: 'Georgia', serif; /* Formal and pretty font */
-            color: #4b0082; /* Indigo text color */
+            font-family: Arial, sans-serif;
+            background-color: #f5f0ff; /* Light violet background */
+            color: #5f3f87; /* Dark violet text */
             margin: 0;
             padding: 0;
-            text-align: center; /* Centered text throughout */
         }
-
         header {
-            background-color: #6a0dad; /* Bright violet header */
+            background-color: #8e44ad; /* Bright violet */
             color: white;
             padding: 20px;
             text-align: center;
         }
-
         header h1 {
             margin: 0;
-            font-size: 3rem; /* Larger font for header */
         }
-
         nav ul {
             list-style-type: none;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
         }
-
         nav ul li {
             display: inline;
+            margin-right: 20px;
         }
-
         nav ul li a {
-            text-decoration: none;
             color: white;
-            font-size: 1.2rem;
-            font-weight: bold;
+            text-decoration: none;
         }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
         main {
-            padding: 40px 20px;
+            margin: 20px;
         }
-
         section {
             margin-bottom: 40px;
         }
-
-        section h2 {
-            font-size: 2.5rem;
-            color: #6a0dad;
-            margin-top: 20px;
+        h2 {
+            color: #8e44ad; /* Bright violet */
         }
-
-        section h3 {
-            font-size: 1.8rem;
-            color: #4b0082;
-            margin-top: 10px;
+        h3 {
+            color: #5f3f87; /* Dark violet */
         }
-
-        .course-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 10px;
-        }
-
-        .course-list ul {
-            flex: 1;
-            min-width: 250px;
+        ul {
             list-style-type: none;
             padding: 0;
         }
-
-        .course-list ul li {
+        ul li {
             margin-bottom: 10px;
         }
-
         footer {
-            background-color: #6a0dad;
+            background-color: #8e44ad;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 10px;
             position: fixed;
-            bottom: 0;
             width: 100%;
+            bottom: 0;
         }
-
         footer p {
             margin: 0;
-            font-size: 1rem;
         }
     </style>
 </head>
@@ -121,59 +82,47 @@
     <main>
         <section id="freshman">
             <h2>Freshman Year</h2>
+           
             <h3>Fall Semester</h3>
-            <div class="course-list">
-                <ul>
-                    <li><a href="https://youtube.com/playlist?list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&si=25bWuGCf6Jrbc7Yc">Math 1000 A & B (Pre-Calc)</a></li>
-                    <li><a href="https://www.coursera.org/specializations/matlab-programming-engineers-scientists">Computer Programming for Engineers (MATLAB)</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=-TkoO8Z07hI">Computer Programming for Engineers (C++)</a></li>
-                    <li><a href="https://www.edx.org/learn/professional-writing/the-university-of-queensland-academic-english-how-to-write-an-essay?index=product&queryId=4c84a2f8bfe5aa1187ff019bc076a82b&position=2">First Year Writing Seminar (Essay Writing)</a></li>
-                    <li><a href="https://www.edx.org/learn/english/the-university-of-queensland-academic-english-how-to-write-a-thesis?index=product&queryId=4c84a2f8bfe5aa1187ff019bc076a82b&position=3">First Year Writing Seminar (Thesis and Academic Writing)</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://www.coursera.org/learn/introduction-statistics-data-analysis-public-health">General Elective (Used as a Pre-Med Related Elective)</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-&si=ppNLdYatuzwKvk5S">Calculus</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&si=KcyoiZDy5YZwZj9W">Calculus</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PLNycEeeRg4mWslgmYTqWgmO2e9eE9GAtl&si=APqIXhXDJKFQxiCc">Foundations of Science 1 & 2 - Physics 1</a></li>
-                    <li><a href="https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/pages/syllabus/">Foundations of Science 1 & 2 - Biology 1</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://youtube.com/playlist?list=PLTGmFhsK1lNRegiswSI6MhKGHPy2J5Bl4&si=IHPrxsEi26v4FtjC">Foundations of Science 1 & 2 - Chemistry 1</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PL746AE3CCB29B64B8&si=wGU-0DwrGxRGLoZi">Ethics in Engineering</a></li>
-                    <li><a href="https://www.coursera.org/specializations/statistical-analysis-r-public-health">Colloquium (Used as Pre-Med Elective)</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7&si=PWKbG1abLNm9Hmwn">Multivariable Calculus</a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="https://youtube.com/playlist?list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP&si=25bWuGCf6Jrbc7Yc">Math 1000 A & B (Pre-Calc)</a></li>
+                <li><a href="https://www.coursera.org/specializations/matlab-programming-engineers-scientists">Computer Programming for Engineers (MATLAB)</a></li>
+                <li><a href="https://www.youtube.com/watch?v=-TkoO8Z07hI">Computer Programming for Engineers (C++)</a></li>
+                <li><a href="https://www.edx.org/learn/professional-writing/the-university-of-queensland-academic-english-how-to-write-an-essay?index=product&queryId=4c84a2f8bfe5aa1187ff019bc076a82b&position=2">First Year Writing Seminar (Essay Writing)</a></li>
+                <li><a href="https://www.edx.org/learn/english/the-university-of-queensland-academic-english-how-to-write-a-thesis?index=product&queryId=4c84a2f8bfe5aa1187ff019bc076a82b&position=3">First Year Writing Seminar (Thesis and Academic Writing)</a></li>
+                <li><a href="https://www.coursera.org/learn/introduction-statistics-data-analysis-public-health">General Elective (Used as a Pre-Med Related Elective)</a></li>
+            </ul>
 
             <h3>January Term</h3>
             <ul>
                 <li>Design & Innovation</li>
             </ul>
 
-            <h3>Summer Term</h3>
+            <h3>Spring Semester</h3>
             <ul>
-                <li><a href="https://www.coursera.org/learn/engineering-statistics">Engineering Statistics</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-&si=ppNLdYatuzwKvk5S">Calculus</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&si=KcyoiZDy5YZwZj9W">Calculus</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLNycEeeRg4mWslgmYTqWgmO2e9eE9GAtl&si=APqIXhXDJKFQxiCc">Foundations of Science 1 & 2 - Physics 1</a></li>
+                <li><a href="https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/pages/syllabus/">Foundations of Science 1 & 2 - Biology 1</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLTGmFhsK1lNRegiswSI6MhKGHPy2J5Bl4&si=IHPrxsEi26v4FtjC">Foundations of Science 1 & 2 - Chemistry 1</a></li>
+                <li><a href="https://youtube.com/playlist?list=PL746AE3CCB29B64B8&si=wGU-0DwrGxRGLoZi">Ethics in Engineering</a></li>
+                <li><a href="https://www.coursera.org/specializations/statistical-analysis-r-public-health">Colloquium (Used as Pre-Med Elective)</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7&si=PWKbG1abLNm9Hmwn">Multivariable Calculus</a></li>
             </ul>
         </section>
 
         <section id="sophomore">
             <h2>Sophomore Year</h2>
+           
             <h3>Fall Semester</h3>
-            <div class="course-list">
-                <ul>
-                    <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6&si=s1ag-5ld6o8Zs6-I">Differential Equations</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B&si=5yG_MYP_nNZuf_WP">Linear Algebra</a></li>
-                    <li><a href="https://youtube.com/playlist?list=PLNycEeeRg4mUGr2IS8jUxJB8CZ9qb-ISX&si=t11CcGz-ocVRIdu2">Foundations of Science 3 & 4 - Physics 2</a></li>
-                </ul>
-
-                <ul>
-                    <li><a href="https://www.youtube.com/playlist?list=PLS5Mrad4hB6X43qYeIqdAthQSzR0FOhK7">Foundations of Science 3 & 4 - Chemistry 2</a></li>
-                    <li>Foundations of Science 3 & 4 - Biology 2</li>
-                    <li><a href="https://www.edx.org/learn/robotics/stanford-university-introduction-to-haptics?index=product&queryId=48ceda11408a0a936809970720bc433d&position=1">Core (Used as a Pre-Med Related Elective)</a></li>
-                </ul>
-            </div>
+            <ul>
+                <li><a href="https://youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6&si=s1ag-5ld6o8Zs6-I">Differential Equations</a></li>
+                <li><a href="https://youtube.com/playlist?list=PL0-GT3co4r2y2YErbmuJw2L5tW4Ew2O5B&si=5yG_MYP_nNZuf_WP">Linear Algebra</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLNycEeeRg4mUGr2IS8jUxJB8CZ9qb-ISX&si=t11CcGz-ocVRIdu2">Foundations of Science 3 & 4 - Physics 2</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PLS5Mrad4hB6X43qYeIqdAthQSzR0FOhK7">Foundations of Science 3 & 4 - Chemistry 2</a></li>
+                <li>Foundations of Science 3 & 4 - Biology 2</li>
+                <li><a href="https://www.edx.org/learn/robotics/stanford-university-introduction-to-haptics?index=product&queryId=48ceda11408a0a936809970720bc433d&position=1">Core (Used as a Pre-Med Related Elective)</a></li>
+            </ul>
 
             <h3>January Term</h3>
             <ul>
@@ -181,12 +130,73 @@
             </ul>
 
             <h3>Spring Semester</h3>
-            <div class="course-list">
-                <ul>
-                    <li><a href="https://drive.google.com/drive/folders/1YMslRB-v1yICl7ZaiBTzIH1w3Ka2ykWw?usp=sharing">Circuits</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=TyyTefl9ktM&list=PLvJZZcg6Js7r8xKTR6lOI6eUmXEHDfGTH">Circuits</a></li>
-                    <li>Bioengineering
+            <ul>
+                <li><a href="https://drive.google.com/drive/folders/1YMslRB-v1yICl7ZaiBTzIH1w3Ka2ykWw?usp=sharing">Circuits</a></li>
+                <li><a href="https://www.youtube.com/watch?v=TyyTefl9ktM&list=PLvJZZcg6Js7r8xKTR6lOI6eUmXEHDfGTH">Circuits</a></li>
+                <li>Bioengineering Principles</li>
+                <li><a href="https://youtube.com/playlist?list=PLRqDfxcafc23LXGoItpkYMKtUdHaQwSDC&si=41Ntf7j7suDAazt1">Statics</a></li>
+                <li><a href="https://www.youtube.com/watch?v=Dqm9jD2dsC8&list=PLTGmFhsK1lNT6HSeaiBdDGS4bGKVWVokz">Statics</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLYHaXvNA5Jrf_z0xbYhlzv0leoGBXHhll&si=SrQn3D4lP_yExshb">Physical Chemistry</a></li>
+                <li>Conservation Laws</li>
+                <li>Biotransport</li>
+                <li><a href="https://www.coursera.org/learn/economics-society-markets-and-inequality">Core (Used as a Sociology-Related Elective for Pre-Med)</a></li>
+            </ul>
+        </section>
 
+        <section id="junior">
+            <h2>Junior Year</h2>
+           
+            <h3>Fall Semester</h3>
+            <ul>
+                <li>Probability & Statistics</li>
+                <li><a href="https://www.youtube.com/watch?v=8D0-mnKzLkk&list=PLLHqYFG9ZRRhriDPYCweP1ehIo4b7zeqc">Numerical Methods</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLUl4u3cNGP61R5sPDPKVfcFlu95wSs2Kx&si=Ws7E2IvOZ6n7Vbpj">Foundations of Science 5 & 6 - Physics 3</a></li>
+                <li>Foundations of Science 5 & 6 - Biology 3</li>
+                <li><a href="https://www.coursera.org/learn/mrnas-as-medicines">Colloquium (Used as a Major Related Elective)</a></li>
+            </ul>
 
+            <h3>January Term</h3>
+            <ul>
+                <li><a href="https://www.coursera.org/specializations/cancer-biology">General Elective (Used as a Major Related Elective)</a></li>
+            </ul>
 
+            <h3>Spring Semester</h3>
+            <ul>
+                <li><a href="https://youtube.com/playlist?list=PL0o_zxa4K1BXcdxNQVpjgCfo6Wjot9QV8&si=zSct1EwIdJNu9wvu">Bioengineering Elective (Orgo 1 for Pre-Meds)</a></li>
+                <li><a href="https://www.edx.org/learn/cellular-biology/massachusetts-institute-of-technology-cell-biology-transport-and-signaling?index=product&queryId=dc17b19ec75dce02ddcf8a51381b686d&position=2">Bioengineering Elective</a></li>
+                <li><a href="https://www.edx.org/learn/cellular-biology/massachusetts-institute-of-technology-cell-biology-cell-cell-interactions?index=product&queryId=dc17b19ec75dce02ddcf8a51381b686d&position=3">Bioengineering Elective</a></li>
+                <li><a href="https://www.coursera.org/learn/chemtherm2">General Elective (Used as a Bioengineering Elective)</a></li>
+            </ul>
+        </section>
+
+        <section id="senior">
+            <h2>Senior Year</h2>
+           
+            <h3>Fall Semester</h3>
+            <ul>
+                <li>Bioimaging</li>
+                <li>Capstone I</li>
+                <li><a href="https://youtube.com/playlist?list=PLLItkWWw542yny5-GkO2dCGMc9l8RpMUM&si=nD-VQrbuTZlXurh9">Bioengineering Elective (Orgo 2 for Pre-Meds)</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLTGmFhsK1lNReNn_2k-ndBj4c_izdDvQA&si=sonWeyFTLOCmZJWy">Bioengineering Elective (Orgo 2 for Pre-Meds)</a></li>
+                <li>Biomechanics</li>
+                <li>Biomaterials</li>
+                <li><a href="https://www.coursera.org/learn/genome-sequencing">Core (Used as a Major Related Elective)</a></li>
+            </ul>
+
+            <h3>Spring Semester</h3>
+            <ul>
+                <li>Capstone Design II</li>
+                <li><a href="https://youtube.com/playlist?list=PLxCzCOWd7aiGmXg4NoX6R31AsC5LeCPHe&si=fraQE091X238giDu">Digital Logic</a></li>
+                <li><a href="https://youtube.com/playlist?list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_&si=1cdNJ6tZCRsfgd_I">Partial Differential Equations</a></li>
+                <li><a href="https://www.coursera.org/specializations/introduction-to-electricity-magnetism">Bioengineering Elective</a></li>
+                <li><a href="https://www.coursera.org/learn/cosmetic-formulation-science">Core (Used as a Major Related Elective)</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Academic Hub</p>
+    </footer>
+</body>
+</html>
 
